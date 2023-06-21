@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Odev2.MainPage"
+             Title="Giris">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Start">
+            <Label Text="Odev-2" FontSize="20" HorizontalOptions="Center" />
+
+            <Border Background="Gray" HeightRequest="200" Padding="10,5,18,5" Margin="18">
+                <Image Source="bahadiraktas.jpg" Background="LightYellow" Margin="5"/>
+            </Border>
+
+            <Label Text="Bahadir Aktas" FontSize="16" HorizontalOptions="Center" />
+            <Label Text="20670310054" FontSize="14" HorizontalOptions="Center" />
+            <Label Text="Bartin Universitesi Bilgisayar Muhendisligi Bolumu" FontSize="12" HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

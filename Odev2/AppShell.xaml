@@ -1,0 +1,39 @@
+<Shell
+    x:Class="Odev2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Odev2"
+    xmlns:views="clr-namespace:Odev2.Views"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Icon="home.png"
+        Title="Giris"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Icon="money.png"
+        Title="Doviz"
+        ContentTemplate="{DataTemplate views:DovizKurlari}"
+        Route="DovizKurlari" />
+
+    <ShellContent
+        Icon="havadurumu.png"
+        Title="Hava Durumu"
+        ContentTemplate="{DataTemplate views:HavaDurumu}"
+        Route="HavaDurumu" />
+
+    <ShellContent
+        Icon="yapilacaklar.png"
+        Title="Yapilacaklar"
+        ContentTemplate="{DataTemplate views:Yapilacaklar}"
+        Route="Yapilacaklar"/>
+
+    <ShellContent
+        Icon="ayarlar.png"
+        Title="Ayarlar"
+        ContentTemplate="{DataTemplate views:Ayarlar}"
+        Route="Ayarlar" />
+
+</Shell>
